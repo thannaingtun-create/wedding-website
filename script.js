@@ -2,11 +2,11 @@
 const weddingConfig = {
   groomName: "မောင်အေးမင်းစိုး",
   brideName: "မခင်ချိုတင့်",
-  dateText: "DATE TO BE ANNOUNCED",
-  dateLong: "Date to be announced",
-  timeText: "Time will be announced soon",
-  venueName: "Venue to be announced",
-  venueAddress: "Location details will be shared soon.",
+  dateText: "November 5, 2026",
+  dateLong: "Thursday , November 5, 2026",
+  timeText: "10:00 AM - `11:30 AM",
+  venueName: "CAG ဧဝံဂေလိဘုရားကျောင်း ",
+  venueAddress: "နေရာ — ၅၄ လမ်း၊ ၃၅ လမ်းနှင့် ၃၆ လမ်းကြား၊ CAG ဧဝံဂေလိဘုရားကျောင်း၊ မန္တလေးမြို။",
   googleMapsUrl: "",
   dressCode: "Elegant & festive"
 };
