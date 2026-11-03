@@ -1,56 +1,27 @@
 # Elegant & Romantic Wedding Website
 
-A responsive bilingual (Myanmar + English) wedding invitation built with plain HTML, CSS and JavaScript. It is suitable for free static hosting such as GitHub Pages.
+Responsive bilingual (Myanmar + English) wedding invitation using plain HTML, CSS and JavaScript.
 
 ## Files
 - `index.html` — page structure and invitation text
-- `style.css` — responsive layout, colors, typography and animation
-- `script.js` — couple/event details, mobile navigation, gallery lightbox and RSVP demo
+- `style.css` — responsive design and typography
+- `script.js` — couple/event details, navigation, gallery lightbox and RSVP demo
+- `images/` — optional folder for your own photographs
 
-## 1. Preview on your laptop
-1. Extract the ZIP file.
-2. Open the `wedding-website` folder.
-3. Double-click `index.html` to open it in your browser.
-4. Internet is needed to load the Google Fonts and sample gallery photographs.
+## Customize
+Edit the `weddingConfig` object near the top of `script.js`. Change the couple names, date, time, venue, address, Google Maps share URL and dress code.
 
-## 2. Customize the couple and event details
-Open `script.js` in VS Code or another text editor. Edit the `weddingConfig` object near the top:
+## Replace photos
+In `index.html`, find `gallery-grid`. Replace the sample Unsplash URLs in both `src` and `data-image` with your own approved photos. For a photo uploaded to the `images` folder, use a path such as `images/photo-1.jpg`.
 
-```js
-const weddingConfig = {
-  groomName: "မောင်အေးမင်းစိုး",
-  brideName: "မခင်ချိုတင့်",
-  dateText: "DATE TO BE ANNOUNCED",
-  dateLong: "Date to be announced",
-  timeText: "Time will be announced soon",
-  venueName: "Venue to be announced",
-  venueAddress: "Location details will be shared soon.",
-  googleMapsUrl: "",
-  dressCode: "Elegant & festive"
-};
-```
+## Publish with GitHub Pages
+1. Create a Public repository.
+2. Upload the contents of this folder to the repository root. Keep `index.html` at the root.
+3. Open Settings → Pages.
+4. Choose Deploy from a branch, branch `main`, folder `/(root)`, then Save.
+5. Wait for the Pages URL to appear.
 
-Replace each placeholder with confirmed details. For `googleMapsUrl`, paste the Google Maps share link for the venue. Save the file and refresh the browser.
+## RSVP
+The RSVP form is a front-end demo only. It does not send or save responses. Connect a form service or backend to collect actual replies. Do not put private API keys in this public repository.
 
-### Replace sample gallery photographs
-In `index.html`, look for the `gallery-grid` section. Replace the image `src` and `data-image` URLs with image URLs you are allowed to use, or put your own photos in a folder such as `images/` and use paths such as `images/photo-1.jpg`. If you use personal photos, make sure the couple is happy for them to be public.
-
-## 3. Publish free with GitHub Pages
-1. Create/sign in to an account at https://github.com/.
-2. Create a **Public** repository, for example `wedding-website`.
-3. Upload the contents of this folder to the repository root. Make sure `index.html` is at the root, not hidden inside another nested folder.
-4. Open **Settings → Pages**.
-5. Under **Build and deployment**, select **Deploy from a branch**.
-6. Choose branch `main` and folder `/(root)`, then click **Save**.
-7. Wait a few minutes, then use the URL shown in the Pages section. It usually looks like `https://YOUR-USERNAME.github.io/wedding-website/`.
-8. Open the URL on both your laptop and phone.
-
-The hosting is free for eligible public repositories, and you do not need to purchase a custom domain. GitHub Pages serves static files; it does not run a backend server.
-
-## Important: RSVP form
-The current RSVP form is a **front-end demo only**. It displays a confirmation in the browser but does not store or send guest responses anywhere. To collect actual responses, connect a form service such as Formspree or Google Forms, or use a backend/database. Check the service's current free-plan limits and privacy terms before using it for guest information. Do not put private API keys in this public repository.
-
-## Notes
-- The gallery uses sample images hosted on Unsplash. Replace them with the couple's own approved photos for the final version.
-- Google Fonts and remote images need an internet connection.
-- Test the site on a phone after publishing.
+Google Fonts and sample Unsplash images require internet access.
