@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f3ed">
+  <meta name="description" content="A romantic wedding invitation celebrating two hearts becoming one.">
+  <title>Our Wedding | မင်္ဂလာဖိတ်စာ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&family=Noto+Sans+Myanmar:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">WITH LOVE, WE INVITE YOU TO CELEBRATE</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Home">♡ <span>Our Wedding</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav id="navMenu">
+      <a href="#story">Our Story</a>
+      <a href="#details">The Details</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#rsvp" class="nav-cta">RSVP</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image" role="img" aria-label="Romantic wedding flowers"></div>
+      <div class="hero-content">
+        <p class="eyebrow">A CELEBRATION OF LOVE · မေတ္တာဖြင့် ဖိတ်ကြားအပ်ပါသည်</p>
+        <p class="script-line">Together with our families</p>
+        <h1><span class="name-placeholder">Groom's Name</span><span class="ampersand">&</span><span class="name-placeholder">Bride's Name</span></h1>
+        <p class="hero-burmese">နှစ်ဦးသားရဲ့ မင်္ဂလာနေ့လေးကို အတူတကွ ဆင်နွှဲပေးဖို့ နွေးထွေးစွာ ဖိတ်ကြားအပ်ပါတယ်။</p>
+        <div class="hero-rule"><span>✦</span></div>
+        <p class="date-line" id="heroDate">DATE TO BE ANNOUNCED</p>
+        <a class="button button-light" href="#details">Explore the Invitation <span>↓</span></a>
+      </div>
+      <div class="hero-side-note">A DAY TO REMEMBER · 01</div>
+    </section>
+
+    <section class="intro section-wrap" id="story">
+      <p class="eyebrow">TWO HEARTS, ONE JOURNEY</p>
+      <h2>A little moment,<br><em>a lifetime of love.</em></h2>
+      <div class="ornament">❦</div>
+      <p class="intro-copy">We are beginning a beautiful new chapter, and it would mean the world to have you with us.</p>
+      <p class="intro-copy burmese">ဘဝခရီးလမ်းသစ်တစ်ခုကို အတူစတင်မယ့် ဒီအမှတ်တရနေ့လေးမှာ ချစ်ခင်ရသူတွေရဲ့ ဆုမွန်ကောင်းနဲ့အတူ ရှိနေစေချင်ပါတယ်။</p>
+      <div class="signature">With love, always</div>
+    </section>
+
+    <section class="details-section" id="details">
+      <div class="section-wrap">
+        <p class="eyebrow">PLEASE SAVE THE DATE</p>
+        <h2>The Wedding Day</h2>
+        <p class="section-subtitle burmese">မင်္ဂလာအခမ်းအနား အစီအစဉ်</p>
+        <div class="details-grid">
+          <article class="detail-card">
+            <div class="detail-icon">♡</div>
+            <p class="detail-label">WHEN · အချိန်</p>
+            <h3 id="detailDate">Date to be announced</h3>
+            <p id="detailTime">Time will be announced soon</p>
+          </article>
+          <article class="detail-card">
+            <div class="detail-icon">⌖</div>
+            <p class="detail-label">WHERE · နေရာ</p>
+            <h3 id="detailVenue">Venue to be announced</h3>
+            <p id="detailAddress">Location details will be shared soon.</p>
+            <a id="mapLink" class="text-link" href="#" target="_blank" rel="noopener" hidden>Open in Google Maps ↗</a>
+          </article>
+          <article class="detail-card">
+            <div class="detail-icon">✧</div>
+            <p class="detail-label">DRESS CODE · ဝတ်စားဆင်ယင်မှု</p>
+            <h3 id="dressCode">Elegant & festive</h3>
+            <p>Wear something that makes you feel wonderful.</p>
+          </article>
+        </div>
+        <p class="details-note">နေ့ရက်၊ အချိန်နဲ့ နေရာအတည်ပြုပြီးပါက ဒီနေရာမှာ ပြင်ဆင်ဖော်ပြပေးပါမယ်။</p>
+      </div>
+    </section>
+
+    <section class="gallery-section section-wrap" id="gallery">
+      <p class="eyebrow">A FEW BEAUTIFUL MOMENTS</p>
+      <h2>Memories & Moments</h2>
+      <p class="section-subtitle burmese">အမှတ်တရ ဓာတ်ပုံများ</p>
+      <div class="gallery-grid">
+        <button class="gallery-item gallery-tall" data-image="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1500&q=85" aria-label="Open wedding photo 1">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=80" alt="Romantic wedding ceremony" loading="lazy"><span>01 / THE CELEBRATION</span>
+        </button>
+        <button class="gallery-item" data-image="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1500&q=85" aria-label="Open wedding photo 2">
+          <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=900&q=80" alt="Wedding couple celebrating" loading="lazy"><span>02 / JOYFUL MOMENTS</span>
+        </button>
+        <button class="gallery-item" data-image="https://images.unsplash.com/photo-1529636798458-92182e662485?auto=format&fit=crop&w=1500&q=85" aria-label="Open wedding photo 3">
+          <img src="https://images.unsplash.com/photo-1529636798458-92182e662485?auto=format&fit=crop&w=900&q=80" alt="Wedding flowers and details" loading="lazy"><span>03 / LITTLE DETAILS</span>
+        </button>
+      </div>
+      <p class="gallery-note">နမူနာဓာတ်ပုံများကို မင်္ဂလာမောင်နှံရဲ့ ကိုယ်ပိုင်ဓာတ်ပုံများဖြင့် အစားထိုးနိုင်ပါတယ်။</p>
+    </section>
+
+    <section class="rsvp-section" id="rsvp">
+      <div class="rsvp-decoration">❦</div>
+      <div class="rsvp-inner">
+        <p class="eyebrow">KINDLY REPLY</p>
+        <h2>Will you join us?</h2>
+        <p class="rsvp-burmese">မင်္ဂလာအခမ်းအနားသို့ တက်ရောက်နိုင်မနိုင် အကြောင်းပြန်ပေးပါနော်။</p>
+        <form id="rsvpForm" class="rsvp-form">
+          <label for="guestName">Your name · အမည်</label>
+          <input id="guestName" name="guestName" type="text" placeholder="Enter your name" required maxlength="100">
+          <label for="attendance">Will you attend? · တက်ရောက်နိုင်ပါသလား</label>
+          <select id="attendance" name="attendance" required>
+            <option value="">Please choose / ရွေးချယ်ပါ</option>
+            <option value="yes">Joyfully accepts · တက်ရောက်ပါမည်</option>
+            <option value="no">Regretfully declines · မတက်ရောက်နိုင်ပါ</option>
+          </select>
+          <label for="guestCount">Number of guests · လူဦးရေ</label>
+          <select id="guestCount" name="guestCount">
+            <option value="1">1 guest</option><option value="2">2 guests</option><option value="3">3 guests</option><option value="4">4 guests</option><option value="5">5 guests</option>
+          </select>
+          <label for="message">A little note (optional) · ဆုမွန်ကောင်း</label>
+          <textarea id="message" name="message" rows="3" placeholder="Share a message for the couple…"></textarea>
+          <button class="button button-dark" type="submit">Send RSVP <span>♡</span></button>
+          <p class="form-note">Demo form: responses are not saved online yet. See README.md to connect a free form service.</p>
+          <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="closing section-wrap">
+      <div class="closing-flower">✿</div>
+      <p class="script-line">We can't wait to celebrate with you</p>
+      <h2>With love & gratitude</h2>
+      <p class="burmese">လာရောက်ချီးမြှင့်ပေးခြင်းက ကျွန်ုပ်တို့အတွက် အဖိုးတန်ဆုံး လက်ဆောင်ပါပဲ။</p>
+      <p class="closing-names"><span class="name-placeholder">Groom's Name</span> <span>♡</span> <span class="name-placeholder">Bride's Name</span></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>MADE WITH LOVE <span>♡</span> FOR OUR SPECIAL DAY</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo preview" hidden>
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close photo">×</button>
+    <img id="lightboxImage" src="" alt="Expanded wedding photo">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
